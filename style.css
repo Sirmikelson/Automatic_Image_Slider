@@ -1,0 +1,33 @@
+body{
+    margin: 0px;
+    /* background-color: black; */
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+.slider{
+    width: 90%;
+    height: 600px;
+    margin: 20px auto;
+    overflow: hidden;
+    box-shadow: 3px 3px 16px rgba(0, 0, 0, 7);
+    
+}
+#image{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+     margin: auto;
+    transition: 3s;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+
+h1{
+    text-align: center;
+    background-color: gold;
+    position: absolute;
+}
